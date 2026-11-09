@@ -83,7 +83,7 @@ function secureRequest() {
 }
 
 function checkText(text) {
-  return /a+$/.test(text);
+  return /^a+$/.test(text);
 }
 
 function isNotNumber(a) {
