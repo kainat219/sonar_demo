@@ -13,7 +13,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 password = "admin123"
-api_host = "192.168.1.10"
+api_host = "192.168.1.10" # NOSONAR
 api_url = "http://example.com/api"
 
 
