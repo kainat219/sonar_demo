@@ -223,7 +223,8 @@ def another_complex(items, mode, flag):
 
 def many_params(a, b, c, d, e, f, g, h, i, j, k, l, m, n):
     return a
-
+def new_hash(value):
+    return hashlib.md5(value.encode()).hexdigest()
 
 # TODO: fix this later
 # FIXME: this is broken
