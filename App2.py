@@ -69,7 +69,7 @@ def compare(a):
 def total_price(items):
     total = 0
     for item in items:
-        total =+ item
+        total += item
     return total
 
 
